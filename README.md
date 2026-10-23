@@ -15,8 +15,12 @@ NYAlertViewController is a replacement for UIAlertController/UIAlertView with su
 #### Manual
 Add the files to your project manually by dragging the NYAlertViewController directory into your Xcode project.
 
-#### CocoaPods
-Add `pod 'NYAlertViewController'` to your Podfile, and run `pod install`.
+#### Swift Package Manager
+In Xcode, choose **File > Add Package Dependencies…** and enter the repository URL `https://github.com/til-et/et-nyalertviewcontroller-ios.git`, or add it to your `Package.swift`:
+
+```swift
+.package(url: "https://github.com/til-et/et-nyalertviewcontroller-ios.git", from: "<version>")
+```
 
 ### Usage Examples
 An Objectve-C example project demonstrating customization options is included in the NYAlertViewControllerDemo directory.
