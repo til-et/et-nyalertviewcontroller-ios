@@ -19,7 +19,7 @@ Add the files to your project manually by dragging the NYAlertViewController dir
 In Xcode, choose **File > Add Package Dependencies…** and enter the repository URL `https://github.com/til-et/et-nyalertviewcontroller-ios.git`, or add it to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/til-et/et-nyalertviewcontroller-ios.git", from: "<version>")
+.package(url: "https://github.com/til-et/et-nyalertviewcontroller-ios.git", from: "3.0.0")
 ```
 
 ### Usage Examples
